@@ -1,0 +1,3 @@
+# cargo-generate.toml
+[template]
+exclude = ["cliff.toml"]  # 排除所有无需变量替换的文件
