@@ -37,7 +37,7 @@ cargo install cargo-generate
 在我们的课程中，新的项目会使用 `tyr-rust-bootcamp/template` 模版生成基本的代码：
 
 ```bash
-cargo generate tyr-rust-bootcamp/template
+cargo generate yue16321/template
 ```
 
 ### 安装 pre-commit
@@ -45,7 +45,7 @@ cargo generate tyr-rust-bootcamp/template
 pre-commit 是一个代码检查工具，可以在提交代码前进行代码检查。
 
 ```bash
-pipx install pre-commit
+#pipx install pre-commit
 uv tool install pre-commit --index-url https://pypi.tuna.tsinghua.edu.cn/simple 
 ```
 
