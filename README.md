@@ -46,6 +46,7 @@ pre-commit 是一个代码检查工具，可以在提交代码前进行代码检
 
 ```bash
 pipx install pre-commit
+uv tool install pre-commit --index-url https://pypi.tuna.tsinghua.edu.cn/simple 
 ```
 
 安装成功后运行 `pre-commit install` 即可。
